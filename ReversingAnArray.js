@@ -4,9 +4,9 @@ function reverseArray (arr) {
     newArray.unshift(element);
   }
   return newArray;
-
 }
 
+//In-place
 function reverseArrayInPlace(arr) {
   for (let i = 0; i <= Math.floor(arr.length / 2); i++) {
     let first = arr[i];
